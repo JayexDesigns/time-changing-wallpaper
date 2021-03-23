@@ -8,6 +8,19 @@ body {
     background-color: #1a1a1a;
 }
 
+
+
+#canvas {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    background-color: #ffffff;
+    opacity: 0;
+}
+
+
+
 #topImage {
     z-index: 1;
 }
