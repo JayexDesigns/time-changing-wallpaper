@@ -3,7 +3,7 @@ window.addEventListener('load', () => {
 
     const bar = {
         width: window.innerWidth / 128 - 8,
-        width: 100,
+        height: 100,
         padding: 8
     }
 
@@ -20,9 +20,12 @@ window.addEventListener('load', () => {
     const draw = () => {
         context.clearRect(0, 0, window.innerWidth, window.innerHeight);
 
+        context.fillStyle = "#00ffcc";
+
         for (const [i, part] of audio.entries()) {
-            canvas.style.opacity = part;
-            break;
+            let x = (i * bar.width) + ((i + 1) * bar.padding) - (bar.padding / 2);
+            let y = 4;
+            context.fillRect(x, y, bar.width, bar.height * part * 2);
         }
 
         requestAnimationFrame(draw);
