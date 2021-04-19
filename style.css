@@ -17,6 +17,14 @@ body {
     z-index: 2;
 }
 
+#particles {
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15vh;
+}
+
 
 
 #topImage {
