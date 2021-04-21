@@ -93,6 +93,7 @@ const draw = () => {
                 glowParticle.particleList[i].state += 0.02;
             }
             else {
+                glowParticle.particleList[i] = undefined;
                 glowParticle.particleList.splice(i, 1);
             }
         }
