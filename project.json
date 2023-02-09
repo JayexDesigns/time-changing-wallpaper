@@ -1,0 +1,33 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "This is a static wallpaper that changes visually depending on the time of your computer.\r\n\r\nThe images belong to Matt Vince",
+	"file" : "index.html",
+	"general" : 
+	{
+		"supportsaudioprocessing": true,
+		"properties" : 
+		{
+            "schemecolor": 
+            {
+                "order" : 0,
+                "text" : "ui_browse_properties_scheme_color",
+                "type" : "color",
+                "value" : "0 1 0.8"
+            },
+            "audio_visualizer": {
+                "order": 1,
+                "type": "bool",
+                "text": "Audio Visualizer",
+                "value": false
+            }
+		}
+	},
+	"preview" : "preview.gif",
+	"tags" : [ "Landscape" ],
+	"title" : "Zelda: Wind Waker Dynamic Wallpaper",
+	"type" : "web",
+	"version" : "1.2",
+	"visibility" : "public",
+	"workshopid" : "2331003240",
+	"workshopurl" : "steam://url/CommunityFilePage/2331003240"
+}
