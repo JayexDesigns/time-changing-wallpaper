@@ -1,4 +1,4 @@
-<h3 align="center"><img src='https://raw.githubusercontent.com/JayexDesigns/time-changing-wallpaper/main/preview.png' width='15%'></h3>
+<h3 align="center"><img src='./preview.png' width='15%'></h3>
 <h1 align="center">Time Changing Wallpaper</h1>
 <p align="center">This is a JavaScript webpage that changes its background depending on your local time</p>
 <br/>
